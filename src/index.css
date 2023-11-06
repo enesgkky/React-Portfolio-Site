@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    /* background-image: url('./components/assets/pexels-luis-ruiz-991422.jpg');
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+.myclass {
+    background-image: url('./components/assets/pexels-luis-ruiz-991422.jpg');
+    background-size: cover;
+    background-position: 0;
+}
+
+.test {
+    /* From https://css.glass */
+    background: rgba(5, 255, 153, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(5, 255, 153, 1);
+}
