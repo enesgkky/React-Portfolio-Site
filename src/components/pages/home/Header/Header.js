@@ -15,7 +15,7 @@ const Header = () => {
                 "text-black": theme === 'light',
             })}
         >
-            <a className='hover:text-green-600 hover:test transition-all duration-400' href='#home'>Home</a>
+            <a className='hover:text-green-600 transition-all duration-400' href='#home'>Home</a>
             <a className='hover:text-green-600 transition-all duration-400' href='#about'>About</a>
             <a className='hover:text-green-600 transition-all duration-400' href='#links'>Links</a>
             <a className='hover:text-green-600 transition-all duration-400 flex items-center gap-1' href='/blog'>Blog <FiExternalLink /></a>

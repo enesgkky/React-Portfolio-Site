@@ -1,7 +1,5 @@
 import classNames from 'classnames'
 import React from 'react'
-import { useContext } from 'react'
-import { Context } from "../../../../Context/SiteContext"
 
 
 const Container = ({ id, first = false, children }) => {
