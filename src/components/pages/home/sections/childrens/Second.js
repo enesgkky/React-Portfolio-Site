@@ -4,7 +4,7 @@ import Card from './components/Card'
 const Second = () => {
     return (
         <article
-            className='w-full h-full pt-10 flex justify-center items-center'
+            className='w-full h-full pt-0 md:pt-10 flex justify-center items-center'
         >
             <div className='w-5/6 h-fit flex text-white gap-5'>
                 <div className='w-1/2 pt-12 overflow-hidden'>
@@ -34,10 +34,6 @@ const Second = () => {
                             <Card text={'mssql'} />
                             <Card text={'mongodb'} />
                             <Card text={'mysql'} />
-                            <Card text={'c#'} />
-                            <Card text={'c'} />
-                            <Card text={'.net'} />
-                            <Card text={'mvc'} />
                             <Card text={'rest api'} />
                         </div>
                     </div>

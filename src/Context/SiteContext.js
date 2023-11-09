@@ -3,7 +3,7 @@ const Context = createContext();
 
 const Provider = ({ children }) => {
 
-    const [theme, setTheme] = useState('dark');
+    const [theme, setTheme] = useState('light');
     const [language, setLanguage] = useState('en');
 
     const data = {
